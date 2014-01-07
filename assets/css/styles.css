@@ -342,6 +342,7 @@ a { text-decoration: none; }
 .partners > .container > .row {margin-right: -25px;margin-left: -25px;}
 .partner {
   width: 20%;
+    margin:  0 410 0 410;
   float: left; 
   padding: 0 25px;
   box-sizing: border-box;
@@ -349,6 +350,7 @@ a { text-decoration: none; }
   -webkit-box-sizing: border-box;
   -ms-box-sizing: border-box;
   -khtml-box-sizing: border-box;  
+
 }
 .partner img {
   max-width: 100%;
