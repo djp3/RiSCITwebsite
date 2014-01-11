@@ -1,0 +1,118 @@
+
+.projectCarouselWrapper {
+	margin: 0px auto;
+    position: relative;
+	width:80%;
+}
+
+.projectCarouselWrapper > .project-carousel-control {
+  display: block; 
+  width: 38px;
+  height: 56px;
+  background: url(../../assets/images/sprite.png) no-repeat 0 0;
+  position: absolute;
+  text-indent: -9999px;
+  overflow: hidden;
+  top: 150px;
+}
+.projectCarouselWrapper > .left {
+  background-position: -70px 0;
+  left: -45px;
+}
+.projectCarouselWrapper > .right {
+  background-position: -120px 0;
+  right: -45px;
+}
+
+.projectCarouselRoot {
+    position: relative;
+    overflow: hidden;
+	margin:0px;
+	width:100%;
+	margin:0px auto;
+}
+
+.projectCarouselList{
+    width: 20000em;
+    position: relative;
+	margin: 0px;
+	padding: 0px;
+}
+
+.projectCarouselItem {
+	width: 200px;
+    float: left;
+	border: 1px solid #fff;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.projectCarouselItem > img{
+    display: block;
+    max-width: 100%;
+    height: auto !important;
+}
+
+
+/*PEOPLE*/
+
+
+.peopleCarouselWrapper {
+	margin: 20px auto;
+    position: relative;
+	width:80%;
+}
+
+
+.peopleCarouselWrapper > .people-carousel-control {
+  display: block; 
+  width: 38px;
+  height: 56px;
+  background: url(../../assets/images/sprite.png) no-repeat 0 0;
+  position: absolute;
+  text-indent: -9999px;
+  overflow: hidden;
+  top:120px;
+}
+
+.peopleCarouselWrapper > .left {
+  background-position: 0 -71px;
+  left: -45px;
+}
+.peopleCarouselWrapper > .right {
+  background-position: -44px -71px;
+  right: -45px;
+}
+
+.peopleCarouselRoot {
+    position: relative;
+    overflow: hidden;
+	width:100%;
+	margin:0px auto;
+}
+
+.peopleCarouselList{
+    width: 20000em;
+    position: relative;
+	margin: 0px;
+	padding: 0px;
+}
+
+.peopleCarouselItem {
+	width: 167px;
+    float: left;
+	border: 1px solid #fff;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.peopleCarouselItem > img{
+    display: block;
+    max-width: 100%;
+    height: auto !important;
+}
+
+
+
