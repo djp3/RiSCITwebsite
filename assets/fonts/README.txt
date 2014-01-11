@@ -1,0 +1,7 @@
+These are all from bootstrap 3
+
+	glyphicons-halflings-regular.eot
+	glyphicons-halflings-regular.svg
+	glyphicons-halflings-regular.ttf
+	glyphicons-halflings-regular.woff
+
