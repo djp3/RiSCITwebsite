@@ -1,6 +1,7 @@
-bootstrap.min.js
-jquery-191.js
-	These were both from the coder who first made our site 
+from http://sorgalla.com/jcarousel/dist/
+	jquery.jcarousel.min.js
 
-lightbox-2.6.min.js
-	from http://lokeshdhakar.com/projects/lightbox2/
+from http://fancyapps.com/fancybox/
+	jquery.fancybox.pack.js*
+
+	for the lightbox

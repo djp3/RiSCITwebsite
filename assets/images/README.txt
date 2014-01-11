@@ -1,27 +1,26 @@
-lightbox/
-	from http://lokeshdhakar.com/projects/lightbox2/
+These are either from Bill or the original designer
+	PGC.jpg
+	auburn.png
+	bowker.jpg
+	bozorgzadeh.jpg
+	dourish.jpg
+	ex-lg-1.jpg
+	ex-lg-2.jpg
+	ex-lg-3.jpg
+	ex-lg-4.jpg
+	ex-sm-1.jpg
+	hero.jpg
+	howard.png
+	ibm.png
+	marquette.png
+	microsoft.png
+	nardi.jpg
+	richardson.jpg
+	riscit-title.png
+	scacchi.jpg
+	sprite-master.psd
+	sprite.png
+	tomlinson.jpg
 
-PGC.jpg
-auburn.png
-bowker.jpg
-bozorgzadeh.jpg
-dourish.jpg
-ex-lg-1.jpg
-ex-lg-2.jpg
-ex-lg-3.jpg
-ex-lg-4.jpg
-ex-sm-1.jpg
-hero.jpg
-howard.png
-ibm.png
-marquette.png
-microsoft.png
-nardi.jpg
-richardson.jpg
-riscit-title.png
-scacchi.jpg
-sprite-master.psd
-sprite.png
-tomlinson.jpg
-	These are either from Bill or the original designer
-
+http://fancyapps.com/fancybox/
+	fancybox/
