@@ -19,8 +19,8 @@
 
 		<link rel="stylesheet" type="text/css" href="assets/css/carousel.css"/>
 
-		<link rel="stylesheet" href="assets/css/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
-		
+		<link rel="stylesheet" type="text/css" href="assets/css/events.css"/>
+
 
 	</head>
 
@@ -111,11 +111,22 @@
 
 		<div class="container big-bar">
 			<div class="row text-center">
-				<div class="events">
-					<h2><a name="events">Events</a></h2>
-					<div class="col-md-12">
-						<iframe width="800px" height="320px" src="events/tainter/tainter.html"></iframe>
-						</a>
+				<div class="col-md-12">
+					<div class="events">
+						<h2><a name="events">Events</a></h2>
+						<div class="tainter">
+							<div class="row">
+								<div class="col-md-4">
+									<img src="events/tainter/tainter_joseph.jpg" alt="Joseph Tainter"/>
+								</div>
+								<div class="col-md-4">
+									<h2>RiSCIT is pleased to announce that anthropologist, historian and author Joseph Tainter will be speaking on February 14th, 2014.  Details to follow.</h2>
+								</div>
+								<div class="col-md-4">
+									<img src="events/tainter/collapse.jpg" alt="The Collapse of Complex Societies"/>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -354,8 +365,6 @@
 
 		<script type="text/javascript" src="assets/js/jquery.jcarousel.min.js"></script>
 
-		<script type="text/javascript" src="assets/js/jquery.fancybox.pack.js?v=2.1.5"></script>
-  
 
 		<script type="text/javascript">
   	$(function() {
@@ -426,18 +435,6 @@
                 target: '+=1'
             });
 
-
-		$.fancybox.open([
-			{
-				href : 'events/tainter/tainter.html',
-				type: 'iframe'
-			}
-		],{
-				padding: 0,
-				autoSize:false,
-				height: "320px",
-				width: "800px"
-		});
 	});
 		</script>
 		<script type="text/javascript">

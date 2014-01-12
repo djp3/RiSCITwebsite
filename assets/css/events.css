@@ -1,0 +1,31 @@
+div.tainter{ 	
+	font-family: 'Roboto', "Helvetica Neue", Helvetica, Arial, sans-serif;
+	line-height: 1.4;
+	color: #707070;
+	padding: 10px;
+
+	margin: 0px auto;
+
+	border:2px solid black;
+	border-radius:25px;
+	background: -webkit-linear-gradient(rgb(172,207,229),rgb(255,255,255)); /* For Safari */
+	background: -o-linear-gradient(rgb(172,207,229),rgb(255,255,255)); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(rgb(172,207,229),rgb(255,255,255)); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(rgb(172,207,229),rgb(255,255,255)); /* Standard syntax */
+}
+
+div.tainter img { 	
+	height: 250px;
+	box-shadow: 3px 3px 3px #888888;
+}
+
+
+div.tainter h2{
+	font-family: 'Roboto', "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-style: normal;
+	text-transform: none;
+	color: black;
+	font-size: 2.0rem;                           
+	padding:0px;
+	margin:0px;
+}
