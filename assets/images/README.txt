@@ -21,6 +21,3 @@ These are either from Bill or the original designer
 	sprite-master.psd
 	sprite.png
 	tomlinson.jpg
-
-http://fancyapps.com/fancybox/
-	fancybox/
