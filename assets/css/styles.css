@@ -67,18 +67,7 @@ body {
 	background: url(../../assets/images/hero.jpg) no-repeat center top;
 }
 
-.hero {
-	/*background: url(../../assets/images/hero.jpg) no-repeat center top;*/
-	/*height: 596px;*/
-	width: 100%;
-}		  
-
 .page-title {
-  /*text-indent: -9999px;*/
-  /*overflow: hidden;*/
-  /*background: url(../../assets/images/riscit-title.png) no-repeat 0 0;*/
-  /*width: 450px; 
-  height: 210px;*/
   margin-top:60px;
   margin-left:auto;
   margin-right:auto;
@@ -89,12 +78,15 @@ div.page-title img{
   width:60%;
   height: auto;
 }
+
 .page-tagline {
   color: white;
   text-shadow: -1px -1px 2px #000, 1px -1px 2px #000, -1px 1px 2px #000, 1px 1px 2px #000;
   font-size: 3.5rem;
   text-align: center;
 }
+
+
 .page-intro {
   padding: 24px 40px 40px 40px; 
   background: #fff; 
@@ -105,6 +97,8 @@ div.page-title img{
   font-size: 1.8rem;
   font-weight: 300;
 }
+
+
 .page-intro h2 {
   color: #3584dc; 
   text-align: center; 
