@@ -86,7 +86,7 @@ body {
 }
 
 .page-title img{
-  width:95%;
+  max-width:95%;
 }
 .page-tagline {
   color: white;
