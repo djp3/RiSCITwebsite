@@ -2,10 +2,10 @@
 .projectCarouselWrapper {
 	margin: 0px auto;
     position: relative;
-	width:80%;
+	width:75%;
 }
 
-.projectCarouselWrapper > .project-carousel-control {
+.projectCarouselWrapper .project-carousel-control {
   display: block; 
   width: 38px;
   height: 56px;
@@ -15,13 +15,14 @@
   overflow: hidden;
   top: 150px;
 }
-.projectCarouselWrapper > .left {
+
+.projectCarouselWrapper .left {
   background-position: -70px 0;
-  left: -45px;
+  left: -38px;
 }
-.projectCarouselWrapper > .right {
+.projectCarouselWrapper .right {
   background-position: -120px 0;
-  right: -45px;
+  right: -38px;
 }
 
 .projectCarouselRoot {
@@ -48,7 +49,7 @@
     box-sizing: border-box;
 }
 
-.projectCarouselItem > img{
+.projectCarouselItem  img{
     display: block;
     max-width: 100%;
     height: auto !important;
@@ -65,7 +66,7 @@
 }
 
 
-.peopleCarouselWrapper > .people-carousel-control {
+.peopleCarouselWrapper  .people-carousel-control {
   display: block; 
   width: 38px;
   height: 56px;
@@ -76,11 +77,11 @@
   top:120px;
 }
 
-.peopleCarouselWrapper > .left {
+.peopleCarouselWrapper .left {
   background-position: 0 -71px;
   left: -45px;
 }
-.peopleCarouselWrapper > .right {
+.peopleCarouselWrapper .right {
   background-position: -44px -71px;
   right: -45px;
 }
@@ -108,7 +109,7 @@
     box-sizing: border-box;
 }
 
-.peopleCarouselItem > img{
+.peopleCarouselItem  img{
     display: block;
     max-width: 100%;
     height: auto !important;
