@@ -62,7 +62,7 @@
 .peopleCarouselWrapper {
 	margin: 20px auto;
     position: relative;
-	width:80%;
+	width: 75%;
 }
 
 
@@ -74,16 +74,16 @@
   position: absolute;
   text-indent: -9999px;
   overflow: hidden;
-  top:120px;
+  top:140px;
 }
 
 .peopleCarouselWrapper .left {
   background-position: 0 -71px;
-  left: -45px;
+  left: -38px;
 }
 .peopleCarouselWrapper .right {
   background-position: -44px -71px;
-  right: -45px;
+  right: -38px;
 }
 
 .peopleCarouselRoot {
