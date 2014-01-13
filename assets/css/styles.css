@@ -64,11 +64,12 @@ body {
   color: #707070;
   padding: 0;
   margin: 0;
+	background: url(../../assets/images/hero.jpg) no-repeat center top;
 }
 
 .hero {
-	background: url(../../assets/images/hero.jpg) no-repeat center top;
-	height: 596px;
+	/*background: url(../../assets/images/hero.jpg) no-repeat center top;*/
+	/*height: 596px;*/
 	width: 100%;
 }		  
 
@@ -98,7 +99,7 @@ body {
   background: #fff; 
   box-shadow: 0 0 2px 2px #dedede;
   border-radius: 10px;
-  margin-top: -85px;
+  margin-top: 40px;
   margin-bottom: 45px;
   font-size: 1.8rem;
   font-weight: 300;
