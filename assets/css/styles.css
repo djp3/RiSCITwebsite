@@ -77,16 +77,17 @@ body {
   /*text-indent: -9999px;*/
   /*overflow: hidden;*/
   /*background: url(../../assets/images/riscit-title.png) no-repeat 0 0;*/
-  width: 450px; 
-  height: 210px;
+  /*width: 450px; 
+  height: 210px;*/
   margin-top:60px;
   margin-left:auto;
   margin-right:auto;
   margin-bottom:0px;
 }
 
-.page-title img{
-  max-width:95%;
+div.page-title img{
+  width:60%;
+  height: auto;
 }
 .page-tagline {
   color: white;
