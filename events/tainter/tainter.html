@@ -15,11 +15,11 @@
 		<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
 		<![endif]-->
 
-		<link rel="stylesheet" type="text/css" href="assets/css/styles.css"/>
+		<link rel="stylesheet" type="text/css" href="../../assets/css/styles.css"/>
 
-		<link rel="stylesheet" type="text/css" href="assets/css/carousel.css"/>
+		<link rel="stylesheet" type="text/css" href="../../assets/css/carousel.css"/>
 
-		<link rel="stylesheet" type="text/css" href="assets/css/events.css"/>
+		<link rel="stylesheet" type="text/css" href="../../assets/css/events.css"/>
 
 
 	</head>
@@ -34,13 +34,13 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a href="index.html" class="navbar-brand">RiSCIT</a>
+					<a href="../../index.html" class="navbar-brand">RiSCIT</a>
 				</div>
 				<nav class="collapse navbar-collapse" role="navigation" style="color:rgb(255,255,255)">
 					<ul class="nav navbar-nav">
-						<li><a href="#events">Events</a></li>
-						<li><a href="#projects">Projects</a></li>
-						<li><a href="#people">People</a></li>
+						<li><a href="../../index.html#events">Events</a></li>
+						<li><a href="../../index.html#projects">Projects</a></li>
+						<li><a href="../../index.html#people">People</a></li>
 						<!--<li><a href="#partners">Partners</a></li>-->
 						<!--<li><a href="http://www.collapseomatic.com/">Blog</a></li>-->
 						<!--<li><a href="mailto:wmt@uci.edu">Contact</a></li>-->
@@ -74,7 +74,7 @@
 						<div class="tainter">
 							<div class="row">
 								<div class="col-md-4">
-									<img src="events/tainter/tainter_joseph.jpg" alt="Joseph Tainter"/>
+									<img src="../../events/tainter/tainter_joseph.jpg" alt="Joseph Tainter"/>
 								</div>
 								<div class="col-md-4">
 									<div style = "color:black;"> <h2>RiSCIT is pleased to announce that anthropologist, historian and author Joseph Tainter will be speaking on February 14th,
@@ -110,7 +110,7 @@
                             DiCaprio, Leila Conners Petersen, Brian Gerber, and Chuck Castleberry, in the ABC News special Earth 2100, and in other documentaries. Dr. Tainter’s current
                             research focuses on complexity, sustainability, energy, and innovation. </div> </div> </div>						
 							<div class="col-md-4">
-									<img src="events/tainter/collapse.jpg" alt="The Collapse of Complex Societies"/>
+									<img src="../../events/tainter/collapse.jpg" alt="The Collapse of Complex Societies"/>
 								</div>
 							</div>
 						</div>
@@ -121,97 +121,39 @@
 
 
 
-		<div class="container footer">
-			<nav class="footer-nav">
-				<!--
-				<ul class="unstyled">
-					<li><a href="#">Project</a></li>
-					<li><a href="#">People</a></li>
-					<li><a href="#">Partners</a></li>
-					<li><a href="#">Blog</a></li>
-					<li><a href="#">Contact</a></li>
-				</ul>
-				-->
-			</nav>
+	<div class="email-signup">
+		<div class="container">
+		<!--
+			<form>
+				<label>Sign-up for our free newsletter for all of our updates at RISCIT</label>
+				<input type="text" name="email" value="" class="email-field" placeholder="email address" />
+				<input type="submit" name="submit" value="Submit" class="submit" />
+			</form>
+		-->
+		</div>
+	</div>
+		<div class="footer">
+			<div class="container">
+				<nav class="footer-nav">
+					<!--
+					<ul class="unstyled">
+						<li><a href="#">Project</a></li>
+						<li><a href="#">People</a></li>
+						<li><a href="#">Partners</a></li>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+					-->
+				</nav>
+			</div>
 		</div>
 
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	
 		<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
   
-		<script type="text/javascript" src="assets/js/jquery.jcarousel.min.js"></script>
+		<script type="text/javascript" src="../../assets/js/jquery.jcarousel.min.js"></script>
 
-		<script type="text/javascript">
-  	$(function() {
-    	$('.projectCarouselRoot').jcarousel({
-			list: '.projectCarouselList',
-			items: '.projectCarouselItem',
-			animation: 'slow',
-			wrap: 'circular',
-			vertical: false,
-    	}).jcarouselAutoscroll({
-        	interval: 3000,
-        	target: '+=1',
-        	autostart: true
-		});
-        $('.projectCarouselWrapper > .left')
-            .on('jcarouselcontrol:active', function() {
-                $(this).removeClass('inactive');
-            })
-            .on('jcarouselcontrol:inactive', function() {
-                $(this).addClass('inactive');
-            })
-            .jcarouselControl({
-                target: '-=1'
-            });
-
-        $('.projectCarouselWrapper > .right')
-            .on('jcarouselcontrol:active', function() {
-                $(this).removeClass('inactive');
-            })
-            .on('jcarouselcontrol:inactive', function() {
-                $(this).addClass('inactive');
-            })
-            .jcarouselControl({
-                target: '+=1'
-            });
-
-
-    	$('.peopleCarouselRoot').jcarousel({
-			list: '.peopleCarouselList',
-			items: '.peopleCarouselItem',
-			animation: 'slow',
-			wrap: 'circular',
-			vertical: false,
-    	}).jcarouselAutoscroll({
-        	interval: 3000,
-        	target: '+=1',
-        	autostart: true
-		});
-        $('.peopleCarouselWrapper > .left')
-            .on('jcarouselcontrol:active', function() {
-                $(this).removeClass('inactive');
-            })
-            .on('jcarouselcontrol:inactive', function() {
-                $(this).addClass('inactive');
-            })
-            .jcarouselControl({
-                target: '-=1'
-            });
-
-        $('.peopleCarouselWrapper > .right')
-            .on('jcarouselcontrol:active', function() {
-                $(this).removeClass('inactive');
-            })
-            .on('jcarouselcontrol:inactive', function() {
-                $(this).addClass('inactive');
-            })
-            .jcarouselControl({
-                target: '+=1'
-            });
-
-	});
-		</script>
 		<script type="text/javascript">
 
   var _gaq = _gaq || [];
