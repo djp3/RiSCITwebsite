@@ -20,7 +20,7 @@ figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
   margin: 0;
-  padding: 0;
+  padding: 0;projecto
   border: 0;
   font-size: 100%;
   font: inherit;
@@ -193,6 +193,27 @@ div.page-title img{
   padding-bottom:20px;
 }
 
+.projects > h2 > a{
+	text-decoration:none;
+	color:inherit;
+}
+
+.projects > h2 > a:visited{
+	text-decoration:none;
+	color:inherit;
+}
+
+.projects > h2 > a:hover{
+	text-decoration:none;
+	color:inherit;
+}
+
+.projects > h2 > a:active{
+	text-decoration:none;
+	color:inherit;
+}
+	
+
 .project {
   padding: 10px 10px 10px 10px;
   margin: 0px auto;
@@ -224,6 +245,26 @@ div.page-title img{
   padding-bottom:20px;
 }
 
+.people > h2 > a{
+	text-decoration:none;
+	color:inherit;
+}
+
+.people > h2 > a:visited{
+	text-decoration:none;
+	color:inherit;
+}
+
+.people > h2 > a:hover{
+	text-decoration:none;
+	color:inherit;
+}
+
+.people > h2 > a:active{
+	text-decoration:none;
+	color:inherit;
+}
+
 .person {
   padding: 10px 10px 10px 10px;
   margin: 0px auto;
@@ -250,6 +291,26 @@ div.page-title img{
   color: #3584dc;
   margin-bottom: 20px;
   font-size: 3rem;
+}
+
+.events > h2 > a{
+	text-decoration:none;
+	color:inherit;
+}
+
+.events > h2 > a:visited{
+	text-decoration:none;
+	color:inherit;
+}
+
+.events > h2 > a:hover{
+	text-decoration:none;
+	color:inherit;
+}
+
+.events > h2 > a:active{
+	text-decoration:none;
+	color:inherit;
 }
 .events > .container > .row {margin-right: -25px;margin-left: -25px;}
 .event {
